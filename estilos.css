@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    background: cadetblue;
+}
+
+.contenedor{
+    
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+}
+
+.helado{
+    font-size: 50px;
+    padding: 15%;
+}
+
+button{
+
+    cursor: pointer;
+    background-color: #53D4FF !important;
+    
+    padding: 15px;
+    width: 200px;
+    height: auto;
+    color: black;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 3px solid black;
+  }
+
+#yesBtn{
+    transform: translate(-70%,0);
+}
+
+#NoBtn{
+    position:relative;
+    right: 35px;
+    position: absolute;
+    
+}
